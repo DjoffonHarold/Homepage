@@ -1,0 +1,223 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+  }
+  img{
+    display: block;
+    /*max-width: 25px*/
+  }
+  input, button{
+    font: inherit;
+  }
+  p, h1, h2, h3, h4 {
+    overflow-wrap: break-word;
+  }
+  /********************Header*************************/
+  .playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .container{
+    padding-top: 50px;
+    font-family: "Playfair Display", serif;
+  }
+  .introduce{
+    display: flex;
+    
+  }
+  .img{
+    display: block;
+    position: relative;
+    background-image: url('./pexels-olly-3769021.jpg');
+   
+    background-size: cover;
+    background-repeat: no-repeat; 
+      
+    width: 200rem;
+    
+    height: auto;
+    box-shadow: 2px 3px  4px #cbd5e1
+    
+  }
+  .text {
+    position: absolute; 
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #dbd8d8;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 25%;
+    
+}
+  .logo-header{
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+  }
+  .first-logo{
+    width: 20px;
+    height: auto;
+  }
+  
+  .profile{
+    display: block;
+    width: 300px;
+    height: auto;
+    box-shadow: 2px 3px  4px #cbd5e1
+  }
+  .description{
+    /*max-width: 450px;*/
+    background-color: #f8fafc;
+    padding: 25px 20px 15px 13px;
+    box-shadow: 2px 3px  4px #cbd5e1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  header{
+    margin: 0px 263px 0px 300px;
+    margin-bottom: 15px;
+  }
+  /**************section*******************/
+  .header-card{
+    display: flex;
+    gap: 75px;
+    margin-bottom: 20px;
+    
+  }
+  .logo-card{
+    display: flex;
+    gap: 10px;
+  }
+  .card{
+    max-width: 250px;
+    box-shadow: 2px 3px  4px #cbd5e1
+  }
+  .card-board{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    /*display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    gap: 15px;*/
+  }
+  .first-project{
+    padding: 50px;
+    background-color: #dc2626;    
+  }
+  .second-project{
+    padding: 50px;
+    background-color: #6366f1;
+  }
+  .third-project{
+    padding: 50px;
+    background-color: #4ade80;
+  }
+  .fourth-project{
+    padding: 50px;
+    background-color: #e879f9
+  }
+  .fifth-project{
+    padding: 50px;
+    background-color: #f59e0b
+  }
+  .seth-project{
+    padding: 50px;
+    background-color: #22d3ee
+  }
+  .project-name{
+    padding: 15px;
+  }
+  .second-logo{
+    width: 30px;
+    height: auto;  
+  }
+  section{
+    margin-bottom: 50px;
+    padding-left: 299px;
+  }
+  h2{
+    margin-bottom: 15px;
+  }
+  /********************/
+  .logo-footer{
+    display: flex;
+    gap: 15px;
+  }
+  footer{
+    display: flex;
+    gap: 60px; 
+    background-color: #93c5fd;
+    margin: 0px 263px 0px 300px; 
+    padding: 30px;  
+  }
+  .profile-footer{
+    width: 350px;
+    height: auto;
+  }
+  @media (max-width: 1024px) {
+    header{
+      margin: 0px 50px 0px 50px;
+      margin-bottom: 15px;
+    } 
+    section{
+      margin-bottom: 50px;
+      padding-left: 50px;
+    } 
+    footer{
+      display: flex;
+      gap: 150px; 
+      background-color: #93c5fd;
+      margin: 0px 50px 0px 50px; 
+      padding: 30px;  
+    }
+    .card-board{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 40px;
+    }
+  }
+  @media (max-width: 768px){
+    header{
+      margin: 0px 50px 0px 50px;
+      margin-bottom: 15px;
+    } 
+    footer{
+      display: flex;
+      gap: 10px; 
+      background-color: #93c5fd;
+      margin: 0px 50px 0px 50px; 
+      padding: 30px;  
+    }
+    .profile-footer{
+      width: 300px;
+      height: auto;
+    }
+    section{
+      margin-bottom: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .header-card{
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      
+    }
+    
+   
+  }
+
+ 
